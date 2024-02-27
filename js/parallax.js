@@ -118,7 +118,7 @@
     var sliderExisted = false;
 
     if (slider.length == 0)
-      this.$slider = $('<img loading="lazy" />').prependTo(this.$mirror);
+      this.$slider = $('<img />').prependTo(this.$mirror);
     else {
       this.$slider = slider.prependTo(this.$mirror)
       sliderExisted = true;

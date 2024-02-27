@@ -419,7 +419,7 @@
 			return new InfoBox({
 				content:
 				'<div class="marker_info_2">' +
-				'<img loading="lazy" src="' + item.map_image_url + '" alt="Image"/>' +
+				'<img src="' + item.map_image_url + '" alt="Image"/>' +
 				'<h3>'+ item.name_point +'</h3>' +
 				'<span>'+ item.description_point +'</span>' +
 				'<div class="marker_tools">' +

@@ -169,7 +169,7 @@ function MM_validateForm() { //v4.0
 
         <div align="center" >                                             
 
-            <a href="https://tastytours.com"><img loading="lazy" id="logo-header" src="../img/logo_sticky.png" alt="Tasty Tours Logo"></a>
+            <a href="https://tastytours.com"><img id="logo-header" src="../img/logo_sticky.png" alt="Tasty Tours Logo"></a>
 
         </div><!-- /logo -->        
 

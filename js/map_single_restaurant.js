@@ -349,7 +349,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 			return new InfoBox({
 				content:
 				'<div class="marker_info" id="marker_info">' +
-				'<img loading="lazy" src="' + item.map_image_url + '" alt="Image"/>' +
+				'<img src="' + item.map_image_url + '" alt="Image"/>' +
 				'<h3>'+ item.name_point +'</h3>' +
 				'<div class="marker_tools">' +
 				'<form action="https://maps.google.com/maps" method="get" target="_blank" style="display:inline-block""><input name="saddr" value="'+ item.get_directions_start_address +'" type="hidden"><input type="hidden" name="daddr" value="'+ item.location_latitude +',' +item.location_longitude +'"><button type="submit" value="Get directions" class="btn_infobox_get_directions">Directions</button></form>' +

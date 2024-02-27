@@ -4,7 +4,7 @@
              // options
              icon: '',
              title: "<a href=\"single_tour.html\" target=\"_blank\"><h4>Last booking</h4>",
-             message: "<figure><img loading="lazy" src=\"img/notify_img.jpg\"></figure><p>Rome Street Food Tour (7 min. ago).</a> "
+             message: "<figure><img src=\"img/notify_img.jpg\"></figure><p>Rome Street Food Tour (7 min. ago).</a> "
          }, {
              // settings
              icon_type: 'image',

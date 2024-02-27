@@ -238,7 +238,7 @@ InfoBox.prototype.createInfoBoxDiv_ = function () {
 };
 
 /**
- * Returns the HTML <img loading="lazy"> tag for the close box.
+ * Returns the HTML <img> tag for the close box.
  * @private
  */
 InfoBox.prototype.getCloseBoxImg_ = function () {
@@ -247,7 +247,7 @@ InfoBox.prototype.getCloseBoxImg_ = function () {
 
   if (this.closeBoxURL_ !== "") {
 
-    img  = "<img loading="lazy"";
+    img  = "<img";
     img += " src='" + this.closeBoxURL_ + "'";
     img += " align=right"; // Do this because Opera chokes on style='float: right;'
     img += " style='";

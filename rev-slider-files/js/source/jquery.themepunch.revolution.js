@@ -1296,7 +1296,7 @@ var initSlider = function (container,opt) {
 	// CHECK FOR ALTERNATIVE IMAGE, AND IFRAM EXIST, AND WE ARE IN IE8, MOBILE, DRAW IT SIMPLE
 	if (container.data('aimg')!=undefined) 
 		if ((container.data('aie8')=="enabled" && _R.isIE(8)) || (container.data('amobile')=="enabled" && _ISM))
-			container.html('<img loading="lazy" class="tp-slider-alternative-image" src="'+container.data("aimg")+'">');
+			container.html('<img class="tp-slider-alternative-image" src="'+container.data("aimg")+'">');
 	
 	// PREPRARE SOME CLASSES AND VARIABLES
 	container.find('>ul').addClass("tp-revslider-mainul");

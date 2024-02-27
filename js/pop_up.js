@@ -201,7 +201,7 @@
             var outer       = $('<div class="pop-outer"></div>');
             var content     = $('<div class="pop-content"></div>');
             var icon        = $('<div class="pop-icon"></div>');
-            var img         = $('<img loading="lazy" />');
+            var img         = $('<img />');
             var title       = $('<h1 class="pop-title"></h1>');
             var message     = $('<div class="pop-message"></div>');
             var form        = $('<form class="pop-form"></form>');
