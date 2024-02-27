@@ -349,7 +349,7 @@
 			return new InfoBox({
 				content:
 				'<div class="marker_info" id="marker_info">' +
-				'<img src="' + item.map_image_url + '" alt="Image"/>' +
+				'<img loading="lazy" src="' + item.map_image_url + '" alt="Image"/>' +
 				'<h3>'+ item.name_point +'</h3>' +
 				'<span>'+ item.description_point +'</span>' +
 				'</div>',

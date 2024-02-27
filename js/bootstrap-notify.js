@@ -210,7 +210,7 @@
 				if (this.$ele.find('[data-notify="icon"]').is('img')) {
 					this.$ele.find('[data-notify="icon"]').attr('src', this.settings.content.icon);
 				} else {
-					this.$ele.find('[data-notify="icon"]').append('<img src="' + this.settings.content.icon + '" alt="Notify Icon" />');
+					this.$ele.find('[data-notify="icon"]').append('<img loading="lazy" src="' + this.settings.content.icon + '" alt="Notify Icon" />');
 				}
 			}
 		},

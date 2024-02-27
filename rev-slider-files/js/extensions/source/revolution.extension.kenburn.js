@@ -49,7 +49,7 @@ jQuery.extend(true,_R, {
 		if (l.find('.tp-kbimg').length==0) {
 			var mediafilter = i.data('mediafilter');
 			mediafilter = mediafilter === undefined ? "" : mediafilter;
-			l.append('<div class="tp-kbimg-wrap '+mediafilter+'" style="z-index:2;width:100%;height:100%;top:0px;left:0px;position:absolute;"><img class="tp-kbimg" src="'+s+'" style="position:absolute;" width="'+d.owidth+'" height="'+d.oheight+'"></div>');
+			l.append('<div class="tp-kbimg-wrap '+mediafilter+'" style="z-index:2;width:100%;height:100%;top:0px;left:0px;position:absolute;"><img loading="lazy" class="tp-kbimg" src="'+s+'" style="position:absolute;" width="'+d.owidth+'" height="'+d.oheight+'"></div>');
 			l.data('kenburn',l.find('.tp-kbimg'));
 		}
 

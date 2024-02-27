@@ -7167,7 +7167,7 @@
     var sliderExisted = false;
 
     if (slider.length == 0)
-      this.$slider = $('<img />').prependTo(this.$mirror);
+      this.$slider = $('<img loading="lazy" />').prependTo(this.$mirror);
     else {
       this.$slider = slider.prependTo(this.$mirror)
       sliderExisted = true;
@@ -8253,7 +8253,7 @@ MagnificPopup.prototype = {
             if(el.is('img')) {
               el.attr('src', value);
             } else {
-              el.replaceWith( $('<img>').attr('src', value).attr('class', el.attr('class')) );
+              el.replaceWith( $('<img loading="lazy">').attr('src', value).attr('class', el.attr('class')) );
             }
           } else {
             el.attr(arr[1], value);
@@ -9267,7 +9267,7 @@ $.magnificPopup.registerModule('gallery', {
       _mfpTrigger('LazyLoad', item);
 
       if(item.type === 'image') {
-        item.img = $('<img class="mfp-img" />').on('load.mfploader', function() {
+        item.img = $('<img loading="lazy" class="mfp-img" />').on('load.mfploader', function() {
           item.hasSize = true;
         }).on('error.mfploader', function() {
           item.hasSize = true;
@@ -12572,7 +12572,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
         if (this.$ele.find('[data-notify="icon"]').is('img')) {
           this.$ele.find('[data-notify="icon"]').attr('src', this.settings.content.icon);
         } else {
-          this.$ele.find('[data-notify="icon"]').append('<img src="' + this.settings.content.icon + '" alt="Notify Icon" />');
+          this.$ele.find('[data-notify="icon"]').append('<img loading="lazy" src="' + this.settings.content.icon + '" alt="Notify Icon" />');
         }
       }
     },
