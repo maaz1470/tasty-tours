@@ -1,0 +1,84 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) https://tastytours.com%{REQUEST_URI}
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{THE_REQUEST} ^GET\ /(.+)\.html [NC]
+  RewriteRule ^ /%1? [R=301,L]
+  
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
+Redirect 301 /romeandlaziofoodtours.html https://tastytours.com/rome-food-tours
+Redirect 301 /naplesfoodtours.html https://tastytours.com/naples-food-tours
+Redirect 301 /barcelonafoodtours.html https://tastytours.com/barcelona-food-tours
+Redirect 301 /florencefoodtours.html https://tastytours.com/florence-food-tours
+Redirect 301 /venicefoodtours.html https://tastytours.com/venice-food-tours
+Redirect 301 /milanfoodtours.html https://tastytours.com/milan-food-tours
+Redirect 301 /privacypolicy.html https://tastytours.com/privacy-policy
+Redirect 301 /contactus.html https://tastytours.com/contact-us
+Redirect 301 /trasteverestreetfoodtour.html https://tastytours.com/trastevere-street-food-tour
+Redirect 301 /campodefioriromestreetfoodtour.html https://tastytours.com/campo-de-fiori-street-food-tour
+Redirect 301 /tastyromandinnerfoodtour.html https://tastytours.com/jewish-ghetto-and-campo-de-fiori-wine-and-food-tour
+Redirect 301 /tastyflorencestreetfoodtour.html https://tastytours.com/tasty-florence-street-food-tour
+Redirect 301 /florenceandtuscanyfoodtours.html https://tastytours.com/florence-food-tours
+ErrorDocument 404 /404.html
+
+ 
+</IfModule>
+
+# Expire images header
+
+ExpiresActive On
+
+ExpiresDefault A0
+
+ExpiresByType image/gif A2592000
+
+ExpiresByType image/png A2592000
+
+ExpiresByType image/jpg A2592000
+
+ExpiresByType image/jpeg A2592000
+
+ExpiresByType image/ico A2592000
+
+ExpiresByType text/css A2592000
+
+# compress text, html, javascript, css, xml:
+
+AddOutputFilterByType DEFLATE text/plain
+
+AddOutputFilterByType DEFLATE text/html
+
+AddOutputFilterByType DEFLATE text/xml
+
+AddOutputFilterByType DEFLATE text/css
+
+AddOutputFilterByType DEFLATE application/xml
+
+AddOutputFilterByType DEFLATE application/xhtml+xml
+
+AddOutputFilterByType DEFLATE application/rss+xml
+
+AddOutputFilterByType DEFLATE application/javascript
+
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# Or, compress certain file types by extension:
+
+<files *.html>
+
+SetOutputFilter DEFLATE
+
+</files>
+
+#RewriteCond %{HTTP_HOST} ^tastytours\.com$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.tastytours\.com$
+#RewriteRule ^/?$ "https\:\/\/tastytours\.com\/" [R=301,L]
