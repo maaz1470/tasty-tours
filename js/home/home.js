@@ -136,7 +136,7 @@ window.onload = function () {
 
     window.addEventListener('scroll', function () {
         console.log(window.scrollY)
-        if (window.scrollY > 700) {
+        if (window.scrollY > 800) {
             if (!window.rh) {
                 window.rh = true;
                 loadFacades();
