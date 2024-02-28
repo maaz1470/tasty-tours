@@ -15,6 +15,8 @@ window.onload = function () {
         }
     }
 
+    
+
 
 
     function loadFacades() {
@@ -133,7 +135,8 @@ window.onload = function () {
     }
 
     window.addEventListener('scroll', function () {
-        if (window.scrollY > 1000) {
+        console.log(window.scrollY)
+        if (window.scrollY > 700) {
             if (!window.rh) {
                 window.rh = true;
                 loadFacades();
