@@ -16016,7 +16016,7 @@ h3#pop_msg strong{
 .irs-bar,
 .irs-bar-edge,
 .irs-slider {
-    background: url(../img/sprite-skin-flat.png) repeat-x;
+    background: url(../img/sprite-skin-flat.webp) repeat-x;
 }
 
 .irs {
@@ -16271,7 +16271,7 @@ h3#pop_msg strong{
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("owl.video.play.png") no-repeat;
+  background: url("owl.video.play.webp") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;

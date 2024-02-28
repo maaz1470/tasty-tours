@@ -169,7 +169,7 @@ function MM_validateForm() { //v4.0
 
         <div align="center" >                                             
 
-            <a href="https://tastytours.com"><img id="logo-header" src="../img/logo_sticky.png" alt="Tasty Tours Logo"></a>
+            <a href="https://tastytours.com"><img id="logo-header" src="../img/logo_sticky.webp" alt="Tasty Tours Logo"></a>
 
         </div><!-- /logo -->        
 
@@ -233,8 +233,7 @@ function MM_validateForm() { //v4.0
   js = d.createElement(s); js.id = id;
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1365407963556488';
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<script type="text/javascript">                                                                                                                                                                                                                                                                                                                                                                                                                                        </body>
+}(document, 'script', 'facebook-jssdk'));</script></body>
 
 </SCRIPT>
 

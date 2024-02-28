@@ -29,7 +29,7 @@
 	-webkit-appearance:none;
 	-ms-appearance:none;
 	-o-appearance:none;
-	background:#fff url(../img/icon-select.png) right center no-repeat;
+	background:#fff url(../img/icon-select.webp) right center no-repeat;
 	color:#777;
 	transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -804,7 +804,7 @@
 	-ms-appearance:none;
 	-moz-appearance:none;
 	-o-appearance:none;
-	background:#ffffff url(../img/icon-select.png) right center no-repeat;
+	background:#ffffff url(../img/icon-select.webp) right center no-repeat;
 	cursor:pointer;
 }
 

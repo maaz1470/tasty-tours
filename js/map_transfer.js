@@ -19,7 +19,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name: 'Charles de Gaulle',
 				location_latitude: 48.873792, 
 				location_longitude: 2.295028,
-				map_image_url: 'img/thumb_map_1.jpg',
+				map_image_url: 'img/thumb_map_1.webp',
 				name_point: 'Charles de Gaulle',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 				get_directions_start_address: '',
@@ -30,7 +30,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name: 'Orly Airport',
 				location_latitude: 48.726243, 
 				location_longitude: 2.365247,
-				map_image_url: 'img/thumb_map_1.jpg',
+				map_image_url: 'img/thumb_map_1.webp',
 				name_point: 'Orly Airport',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 				get_directions_start_address: '',
@@ -331,7 +331,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 					marker = new google.maps.Marker({
 						position: new google.maps.LatLng(item.location_latitude, item.location_longitude),
 						map: mapObject,
-						icon: 'img/pins/' + key + '.png',
+						icon: 'img/pins/' + key + '.webp',
 					});
 
 					if ('undefined' === typeof markers[key])
@@ -375,7 +375,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				maxWidth: 0,
 				pixelOffset: new google.maps.Size(10, 125),
 				closeBoxMargin: '5px -20px 2px 2px',
-				closeBoxURL: "img/close_infobox.png",
+				closeBoxURL: "img/close_infobox.webp",
 				isHidden: false,
 				alignBottom: true,
 				pane: 'floatPane',

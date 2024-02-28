@@ -18,7 +18,7 @@
 				name: 'Address',
 				location_latitude: 48.870587, 
 				location_longitude: 2.318943,
-				map_image_url: 'img/thumb_map_1.jpg',
+				map_image_url: 'img/thumb_map_1.webp',
 				name_point: 'Address',
 				description_point: 'Place Charles de Gaulle, 75008 Paris<br>FRANCE<br><br>+45 423 445 99 / +45 423 445 99 ',
 				url_point: ''
@@ -318,7 +318,7 @@
 					marker = new google.maps.Marker({
 						position: new google.maps.LatLng(item.location_latitude, item.location_longitude),
 						map: mapObject,
-						icon: 'img/pins/' + key + '.png',
+						icon: 'img/pins/' + key + '.webp',
 					});
 
 					if ('undefined' === typeof markers[key])
@@ -357,7 +357,7 @@
 				maxWidth: 0,
 				pixelOffset: new google.maps.Size(40, -190),
 				closeBoxMargin: '5px -20px 2px 2px',
-				closeBoxURL: "img/close_infobox.png",
+				closeBoxURL: "img/close_infobox.webp",
 				isHidden: false,
 				pane: 'floatPane',
 				enableEventPropagation: true

@@ -404,7 +404,7 @@ header.sticky #logo .logo_sticky{ display:block; }
 	width:160px;
 	height:34px;
 	display:block;
-	background-image:url(../img/logo.png);
+	background-image:url(../img/logo.webp);
 	background-repeat:no-repeat;
 	background-position:left top;
 	background-size: 160px 34px;
@@ -415,28 +415,28 @@ header.sticky #logo_home h1{
 	padding:0;
 }
 header.sticky #logo_home h1 a{
-	background-image:url(../img/logo_sticky.png);
+	background-image:url(../img/logo_sticky.webp);
 }
 header#plain #logo_home h1 a{
-	background-image:url(../img/logo_sticky.png);
+	background-image:url(../img/logo_sticky.webp);
 }
 header.sticky#colored #logo_home h1 a{
-	background-image:url(../img/logo_sticky_colored.png);
+	background-image:url(../img/logo_sticky_colored.webp);
 }
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 #logo_home h1 a, header#colored #logo_home h1 a{
-    background-image: url(../img/logo_2x.png);
+    background-image: url(../img/logo_2x.webp);
 	background-size: 160px 34px;
 }
 header.sticky #logo_home h1 a, header#plain #logo_home h1 a{
-    background-image: url(../img/logo_sticky_2x.png);
+    background-image: url(../img/logo_sticky_2x.webp);
 	background-size: 160px 34px;
 }
 header.sticky#colored #logo_home h1 a{
-    background-image: url(../img/logo_sticky_colored_2x.png);
+    background-image: url(../img/logo_sticky_colored_2x.webp);
 	background-size: 160px 34px;
 }
 }
@@ -1236,7 +1236,7 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
   }
   #hero_video {
     height: 480px!important;
-    background: #ddd url(../img/header_bg.jpg) no-repeat center center;
+    background: #ddd url(../img/header_bg.webp) no-repeat center center;
 	background-size: cover;
   }
 }
@@ -1331,7 +1331,7 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 	display: inline-block;
 	right: 15px;
 	top: 20px;
-	background: url(../img/arrow_down_2.png);
+	background: url(../img/arrow_down_2.webp);
 	height: 6px;
 	width: 10px;
 	position: absolute;
@@ -1393,7 +1393,7 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 }
 
 .nav-submit-button {
-	background: #fff url(../img/search-bt.png) no-repeat center center;
+	background: #fff url(../img/search-bt.webp) no-repeat center center;
 	border: none;
 	cursor: pointer;
 	display: block;
@@ -2230,7 +2230,7 @@ input.qty2:focus {
 }
 
 .dec {
-	background: #fff url(../img/minus.png) no-repeat center center;
+	background: #fff url(../img/minus.webp) no-repeat center center;
 	border: 1px solid #cccccc;
 	left: 0;
 	top: 0;
@@ -2243,7 +2243,7 @@ input.qty2:focus {
 }
 
 .inc {
-	background: #fff url(../img/plus.png) no-repeat center center;
+	background: #fff url(../img/plus.webp) no-repeat center center;
 	right: 0;
 	top: 0;
 	border: 1px solid #cccccc;
@@ -2343,7 +2343,7 @@ input.qty2:focus {
 .features-bg {
 	position: relative;
 	min-height: 400px;
-	background: url(../img/features-intro-01.jpg) no-repeat center center;
+	background: url(../img/features-intro-01.webp) no-repeat center center;
 	background-size: cover;
 }
 
@@ -2441,7 +2441,7 @@ ul#contact-info {
 	top: -20px;
 	height: 45px;
 	width: 100%;
-	background: url(../img/tape.png) no-repeat center top;
+	background: url(../img/tape.webp) no-repeat center top;
 	display: block;
 }
 
@@ -2462,7 +2462,7 @@ ul#contact-info {
 	display: block;
 	text-transform: none;
 	font-size: 12px;
-	background: url(../img/bg_login.jpg) no-repeat center center;
+	background: url(../img/bg_login.webp) no-repeat center center;
 	background-size: cover;
 }
 
@@ -3193,7 +3193,7 @@ ul.list_order li span {
 	width: 100%;
 	overflow: hidden;
 	height: 40px;
-	background: #434343 url(../img/down_arrow_select.png) no-repeat right center;
+	background: #434343 url(../img/down_arrow_select.webp) no-repeat right center;
 	border: none;
 	margin-bottom: 15px;
 	-webkit-border-radius: 3px;
@@ -3231,7 +3231,7 @@ ul.list_order li span {
 	width: 100%;
 	overflow: hidden;
 	height: 40px;
-	background: #fff url(../img/down_arrow_select_filters.png) no-repeat right center;
+	background: #fff url(../img/down_arrow_select_filters.webp) no-repeat right center;
 	border: none;
 	margin: 0;
 	padding: 0 0 0 15px;
@@ -3516,11 +3516,11 @@ ul.list_order li span {
 }
 
 .ribbon.popular {
-	background: url(../img/ribbon_popular.png) no-repeat 0 0;
+	background: url(../img/ribbon_popular.webp) no-repeat 0 0;
 }
 
 .ribbon.top_rated {
-	background: url(../img/ribbon_top_rated.png) no-repeat 0 0;
+	background: url(../img/ribbon_top_rated.webp) no-repeat 0 0;
 }
 
 /* Tooltips */
@@ -3824,7 +3824,7 @@ ul.list_order li span {
 /*Banners*/
 .banner {
 	position: relative;
-	background: #fff url(../img/banner_bg.png) no-repeat center bottom;
+	background: #fff url(../img/banner_bg.webp) no-repeat center bottom;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -3847,12 +3847,12 @@ ul.list_order li span {
 
 .banner:after {
 	left: 0;
-	background: url(../img/shadow-bg.png) no-repeat top left;
+	background: url(../img/shadow-bg.webp) no-repeat top left;
 }
 
 .banner:before {
 	right: 0;
-	background: url(../img/shadow-bg.png) no-repeat top right;
+	background: url(../img/shadow-bg.webp) no-repeat top right;
 }
 
 .banner a {
@@ -3882,7 +3882,7 @@ ul.list_order li span {
 }
 
 .banner.colored {
-	background: #ff7a09 url(../img/banner_bg_colored.png) no-repeat center bottom;
+	background: #ff7a09 url(../img/banner_bg_colored.webp) no-repeat center bottom;
 	color: #fff;
 }
 
@@ -4189,7 +4189,7 @@ blockquote.styled {
 #search_container {
 	position: relative;
 	height: 700px;
-	background: #4d536d url(../img/slide_hero.jpg) no-repeat center top;
+	background: #4d536d url(../img/slide_hero.webp) no-repeat center top;
 	background-size: cover;
 	color: #fff;
 	width: 100%;
@@ -4501,7 +4501,7 @@ ul.plan-features {
 	left: -7px;
 	top: -7px;
 	display: block;
-	background: url(../img/ribbon.png) no-repeat 0 0;
+	background: url(../img/ribbon.webp) no-repeat 0 0;
 	z-index: 101;
 }
 
@@ -4550,7 +4550,7 @@ ul.plan-features {
 	left: -5px;
 	top: -5px;
 	display: block;
-	background: url(../img/ribbon.png) no-repeat 0 0;
+	background: url(../img/ribbon.webp) no-repeat 0 0;
 	z-index: 101;
 }
 
@@ -4717,7 +4717,7 @@ ul.plan-features {
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
-	background: url(../img/badge_save.png);
+	background: url(../img/badge_save.webp);
 	font-size: 11px;
 	line-height: 12px;
 	padding-top: 32px;
@@ -4741,7 +4741,7 @@ ul.plan-features {
 /* Promo_full */
 .promo_full {
 	height: auto;
-	background: url(../img/home_bg_2.jpg) no-repeat center center;
+	background: url(../img/home_bg_2.webp) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -4938,7 +4938,7 @@ ul.plan-features {
 /*-------- 5.2 Footer styles --------*/
 /* Footer 3 */
 footer#pattern_2 {
-	background: #222 url(../img/pattern_3.png) repeat 0 0;
+	background: #222 url(../img/pattern_3.webp) repeat 0 0;
 }
 
 footer #logo {
@@ -5036,7 +5036,7 @@ a.bx-next:hover, a.bx-prev:hover{
 
 /* Footer 6 */
 footer#pattern_3 {
-	background: #222 url(../img/pattern_4.png) repeat 0 0;
+	background: #222 url(../img/pattern_4.webp) repeat 0 0;
 }
 footer .post{
 	position:relative;
@@ -5071,7 +5071,7 @@ footer.post i{
 
 /* Footer 7 */
 footer#pattern_4 {
-	background: #2a2a2a url(../img/pattern_5.png) repeat 0 0;
+	background: #2a2a2a url(../img/pattern_5.webp) repeat 0 0;
 }
 
 footer .gallery-image {
@@ -6531,7 +6531,7 @@ a.social_bt.linkedin:before {
 }
 
 .banner_2 {
-  background: url(../img/banner_bg_desktop.jpg) center center no-repeat;
+  background: url(../img/banner_bg_desktop.webp) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6732,7 +6732,7 @@ a.box_news ul li:after {
 #search_container_2 {
 	position: relative;
 	height: 580px;
-	background: #ccc url(../img/hero_3.jpg) no-repeat center top;
+	background: #ccc url(../img/hero_3.webp) no-repeat center top;
 	background-size: cover;
 	color: #fff;
 	width: 100%;
@@ -7358,18 +7358,18 @@ only screen and (min-device-pixel-ratio: 2) and (max-width: 991px) {
 	
 	#logo_home h1 a,
 	header#colored #logo_home h1 a {
-		background-image: url(../img/logo_2x.png);
+		background-image: url(../img/logo_2x.webp);
 		background-size: auto 30px;
 	}
 	
 	header.sticky #logo_home h1 a,
 	header#plain #logo_home h1 a {
-		background-image: url(../img/logo_sticky_2x.png);
+		background-image: url(../img/logo_sticky_2x.webp);
 		background-size: auto 30px;
 	}
 	
 	header.sticky#colored #logo_home h1 a {
-		background-image: url(../img/logo_sticky_colored_2x.png);
+		background-image: url(../img/logo_sticky_colored_2x.webp);
 		background-size: auto 30px;
 	}
 }

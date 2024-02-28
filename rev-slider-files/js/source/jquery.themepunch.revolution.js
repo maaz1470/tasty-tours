@@ -2468,7 +2468,7 @@ var waitForCurrentImages = function(nextli,opt,callback) {
 				if (element.hasClass("defaultimg")) {
 
 					if (!_R.isIE(8)) {
-						if ((loadobj.src.indexOf('images/transparent.png')==-1 && loadobj.src.indexOf('assets/transparent.png')==-1) || element.data('bgcolor')===undefined) {		
+						if ((loadobj.src.indexOf('images/transparent.webp')==-1 && loadobj.src.indexOf('assets/transparent.webp')==-1) || element.data('bgcolor')===undefined) {		
 							element.css({backgroundImage:'url("'+loadobj.src+'")'});
 						} else {
 							

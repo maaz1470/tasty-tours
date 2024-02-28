@@ -19,7 +19,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name: 'Bella Napoli',
 				location_latitude: 48.865633, 
 				location_longitude: 2.321236,
-				map_image_url: 'img/thumb_map_2.jpg',
+				map_image_url: 'img/thumb_map_2.webp',
 				name_point: 'Bella Napoli',
 				description_point: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 				get_directions_start_address: '',
@@ -320,7 +320,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 					marker = new google.maps.Marker({
 						position: new google.maps.LatLng(item.location_latitude, item.location_longitude),
 						map: mapObject,
-						icon: 'img/pins/' + key + '.png',
+						icon: 'img/pins/' + key + '.webp',
 					});
 
 					if ('undefined' === typeof markers[key])
@@ -360,7 +360,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				maxWidth: 0,
 				pixelOffset: new google.maps.Size(10, 125),
 				closeBoxMargin: '5px -20px 2px 2px',
-				closeBoxURL: "img/close_infobox.png",
+				closeBoxURL: "img/close_infobox.webp",
 				isHidden: false,
 				alignBottom: true,
 				pane: 'floatPane',
