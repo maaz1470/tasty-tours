@@ -6,7 +6,7 @@ window.onload = function () {
     function isHomePage() {
         const currentPage = window.location.href;
 
-        const homePage = 'https://maaz1470.github.io/tasty-tours/'
+        const homePage = 'https://tastytours.com/'
 
         if (currentPage == homePage) {
             return true;
